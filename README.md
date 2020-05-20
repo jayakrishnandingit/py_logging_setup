@@ -6,7 +6,7 @@ To make logging setup in python reusable and extensible. I have been replicating
 
 Currently you can include it as a git submodule. Later, I will release this in PYPI.
 ```
-git submodule add https://github.com/chaconinc/DbConnector
+git submodule add git@github.com:jayakrishnandingit/py_logging_setup.git
 ```
 
 Include *our requirements* to *your requirements*. For instance, we rely on PyYAML to load logging configurations.
