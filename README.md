@@ -60,5 +60,10 @@ export LOGGING_YAML_CONFIG=/path/to/logging.yaml
 ```
 Now pass the env variable key during the setup.
 ```
+from py_logging_setup import setup_logging
 setup_logging(config_env_key='LOGGING_YAML_CONFIG')
+LOGGER = logging.getLogger('mymodule')
+LOGGER.info("Hello World!")
+# output in your console.
+>> 2020-05-20 12:16:31,767 - mymodule - INFO - Hello World!
 ```
