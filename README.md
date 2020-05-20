@@ -18,7 +18,7 @@ vim /path/to/your/requirements.txt
 
 Then whichever file you want to log stuff in your application, do,
 ```
-from py_logging_setup.main import setup_logging
+from py_logging_setup import setup_logging
 # for default logging setup which logs to the console. default level=INFO, default logger=console, default config file=logging.yaml.
 setup_logging()
 LOGGER = logging.getLogger('console')
