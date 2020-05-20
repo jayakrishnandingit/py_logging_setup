@@ -1,6 +1,6 @@
 # Objective
 
-To make logging setup in python reusable and extensible.
+To make logging setup in python reusable and extensible. I have been replicating this setup quite a few times across many projects I worked. Hence the repo.
 
 # How to use?
 
